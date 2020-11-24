@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(../../imagens/fundo.jpg) no-repeat center top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+img {
+    width: 100%;
+    height: 200px;
+}
+
+#fundo {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+#inicio img {
+    height: 30px;
+    width: 30px;
+    vertical-align:middle;
+}
+#cidade img {
+    height: 30px;
+    width: 30px;
+    vertical-align:middle;
+}
+#turismo img {
+    height: 30px;
+    width: 30px;
+    vertical-align:middle;
+}
+#cultura img {
+    height: 30px;
+    width: 30px;
+    vertical-align:middle;
+}
+#agenda img {
+    height: 30px;
+    width: 30px;
+    vertical-align:middle;
+}
+#cadastro img {
+    height: 30px;
+    width: 30px;
+    vertical-align:middle;
+}
+
+#menu ul {
+    padding:0px;
+    margin:0px;
+    background-color:#EDEDED;
+    list-style:none;
+}
+#menu ul li { display: inline; }
+#menu ul li a {
+    padding: 2px 10px;
+    display: inline-block;
+    background-color:#EDEDED;
+    color: #333;
+    text-decoration: none;
+    border-bottom:3px solid #EDEDED;
+}
+#menu ul li a:hover {
+    background-color:#D6D6D6;
+    color: #6D6D6D;
+    border-bottom:3px solid #EA0000;
+}
+
+form{
+    font-size: 15px;
+    width: auto;
+    height: auto;
+    padding: 20px;
+	text-align: left;
+	margin-left: 10%;
+}
+div{
+	background-color: lightgray;
+	width: 75%;
+	min-height: 394px;
+	height: auto;
+}
+
+#nomelb{
+	margin-left: 85px
+}
+#sexolb{
+	margin-left: 92px
+}
+.masc{
+	margin-left: 0px;
+}
+.fem{
+	margin-left: 130px;
+}
+.outro{
+	margin-left: 130px;
+}
+#nascimentolb{
+    margin-left: 0px;
+}
+#emaillb{
+    margin-left: 86px;
+}
+#telefonelb{
+    margin-left: 70px;
+}
+#senhalb{
+	margin-left: 85px;
+}
+#submit{
+    margin-left: 240px;
+}
+
+#rodape {
+    background-color: black;
+    color: white;
+    text-align: center;
+}

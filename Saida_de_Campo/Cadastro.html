@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Cadastro </title>
+    <link rel="stylesheet" type="text/css" href="Cadastro/css/estilo.css"/>
+    <script src="Cadastro/php/formulario.php"></script>
+</head>
+<body>
+
+<img src="imagens/teste-horizontal.jpg">
+
+<center>
+    <nav id="menu">
+        <ul>
+            <li id="inicio"><a href="Inicio.html"><img src="imagens/iconecasa.png"/> Inicio </a></li>
+            <li id="cidade"><a href="Cidade.html"><img src="imagens/iconecidade.png"/> Cidade </a></li>
+            <li id="turismo"><a href="Turismo.html"><img src="imagens/iconeturismo.png"/> Turismo </a></li>
+            <li id="cultura"><a href="Cultura.html"><img src="imagens/iconecultura.png"/> Cultura </a></li>
+            <li id="agenda"><a href="Agenda.html"><img src="imagens/iconeagenda.png"/> Agenda </a></li>
+            <li id="cadastro"><a href="Cadastro.html"><img src="imagens/iconecadastro.png"/> Cadastro </a></li>
+        </ul>
+    </nav>
+</center>
+
+<center>
+<div>
+
+    <form action="Cadastro/php/formulario.php" method="post">
+	
+	<br><h1> Cadastre-se: </h1><br>
+
+        <label for="nome" id="nomelb"> Nome: </label>
+        <input type="text" name="nome" placeholder = "Fernando Fonseca" id="nome" required> <br>
+		
+		<label for="sexo" id="sexolb"> Sexo: </label>
+			<input type="radio" name="sexo" class="masc" value="Masculino" checked> M <br>
+			<input type="radio" name="sexo" class="fem" value="Feminino"> F <br>
+			<input type="radio" name="sexo" class="outro" value="Outro"> Outro <br>
+
+        <label for="nascimento" id="nascimentolb"> Data de Nascimento: </label>
+        <input type="date" name="nascimento" id="nascimento"> <br>
+
+        <label for="email" id="emaillb"> Email: </label>
+        <input type="email" name="email" placeholder = "pirenopolis@gmail.com" id="email" required> <br>
+
+        <label for="telefone" id="telefonelb"> Telefone: </label>
+        <input type="tel" name="telefone" id="telefone"> <br>
+		
+		<label for="senha" id="senhalb"> Senha: </label>
+		<input type="password" name="senha" id="senha"> <br>
+
+        <input type="submit" id="submit" value="Cadastrar">
+    </form>
+</div>
+</center>
+
+</body>
+</html>
